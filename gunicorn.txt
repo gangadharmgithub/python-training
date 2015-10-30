@@ -1,0 +1,4 @@
+gunicorn myproj/wsgi:application
+gunicorn myproj.wsgi:application
+gunicorn myproj.wsgi:application
+gunicorn -w 10 myproj.wsgi:application
